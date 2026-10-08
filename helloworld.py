@@ -7,5 +7,14 @@ try:
         print(f"{num} is an Even number.")
     else:
         print(f"{num} is an Odd number.")
+
+    # Check if the number is positive, negative, or zero
+    if num > 0:
+        print(f"{num} is a Positive number.")
+    elif num < 0:
+        print(f"{num} is a Negative number.")
+    else:
+        print(f"{num} is Zero.")
+
 except ValueError:
     print("Invalid input! Please enter a valid integer.")
